@@ -1,4 +1,4 @@
-import RPi.GPIO
+import RPI
 import csv
 print("hello!")
 
