@@ -1,0 +1,33 @@
+pi@raspberrypi:~/PiCode/RashpberryPi $ sh-keygen -t rsa -C pu.xin@outlook.com
+bash: sh-keygen: command not found
+pi@raspberrypi:~/PiCode/RashpberryPi $ ssh-keygen -t rsa -C pu.xin@outlook.com
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/pi/.ssh/id_rsa):
+/home/pi/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/pi/.ssh/id_rsa.
+Your public key has been saved in /home/pi/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:sm6+FW62dQjSSFND6+m8LiGufcoTeMSZg3LY0FqgaWE pu.xin@outlook.com
+The key's randomart image is:
++---[RSA 2048]----+
+|.E     .+        |
+|+.+    . o       |
+|oB o oo .        |
+|= + *. = .       |
+| o o .+ S        |
+|  . + .B o .     |
+|   o o..B o .    |
+|   oo.++ + .     |
+|  ..+*+++        |
++----[SHA256]-----+
+pi@raspberrypi:~/PiCode/RashpberryPi $ cat /home/pi/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQColqHUnu2cmnShgGj+kVcXj/zbor/sVKSPJP/VUOQQ+nZ2pVcFaEBvOjB6Om7/IYrd7P4V4LJtR9DktFw2epQrPxoFfS7rPt+WikT6tIsLRzCnnr3v6gK1eTgIGTjUP2BC5Z6s9Li7v+mFndWKcQV2x8xjoPLeJYgXgRN+O4Dt54vtxTMg0PdJSJB7Umxa/fyp2ALCqZK3wF26ZX1h04SRK8Ea+hLRV/vLfD8k4CXBB2i3DoU6HV1np1BdOGsw0m9JFpbcGs0FZcepEvO+KnilSgKKc/T4l3yz5Wx7iJIiFF9RMOXskFla0utv8+bA/FdLGONkZ1qThp2SW5UeuNtV pu.xin@outlook.com
+pi@raspberrypi:~/PiCode/RashpberryPi $ $ ssh -T git@github.com
+bash: $: command not found
+pi@raspberrypi:~/PiCode/RashpberryPi $ ssh -T git@github.com
+Enter passphrase for key '/home/pi/.ssh/id_rsa':
+Hi xin-pu! You've successfully authenticated, but GitHub does not provide shell access.
+pi@raspberrypi:~/PiCode/RashpberryPi $
