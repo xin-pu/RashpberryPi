@@ -30,4 +30,4 @@ bash: $: command not found
 pi@raspberrypi:~/PiCode/RashpberryPi $ ssh -T git@github.com
 Enter passphrase for key '/home/pi/.ssh/id_rsa':
 Hi xin-pu! You've successfully authenticated, but GitHub does not provide shell access.
-pi@raspberrypi:~/PiCode/RashpberryPi $
+pi@raspberrypi:~/PiCode/RashpberryPi $#
