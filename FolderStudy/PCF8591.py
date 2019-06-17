@@ -20,6 +20,7 @@ for i in x:
     y.append(value)
     time.sleep(0.2) 
     i+=1
+    i+=1
 
 plt.title("Matplotlib demo") 
 plt.xlabel("x axis caption") 

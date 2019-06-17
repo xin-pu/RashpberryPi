@@ -2,16 +2,16 @@ import RPi.GPIO as GPIO
 import time
 
 GPIO.setwarnings(False)
-R,G,B=15,18,14
+R,G,B=14,15,18
 GPIO.setmode(GPIO.BCM)
 
 GPIO.setup(R, GPIO.OUT)
 GPIO.setup(G, GPIO.OUT)
 GPIO.setup(B, GPIO.OUT)
 
-pwmR=GPIO.PWM(R,70)
-pwmG=GPIO.PWM(G,70)
-pwmB=GPIO.PWM(B,70)
+pwmR=GPIO.PWM(R,1)
+pwmG=GPIO.PWM(G,1)
+pwmB=GPIO.PWM(B,1)
 
 pwmR.start(0)
 pwmG.start(0)

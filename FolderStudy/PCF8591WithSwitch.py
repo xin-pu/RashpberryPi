@@ -5,7 +5,7 @@ import smbus
 
 
 GPIO.setwarnings(False)
-Button=26
+Button=15
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(Button, GPIO.OUT)
 
