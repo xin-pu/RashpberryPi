@@ -48,4 +48,54 @@ pi@raspberrypi:~/PiCode/RashpberryPi $ ^C
 pi@raspberrypi:~/PiCode/RashpberryPi $ ^C
 pi@raspberrypi:~/PiCode/RashpberryPi $
 
+commit by xin-pu and password @ githubpi@raspberrypi:~/PiCode/RashpberryPi $ git config --global xin.pu
+pi@raspberrypi:~/PiCode/RashpberryPi $ git config --global pu.xin@outlook.com
+pi@raspberrypi:~/PiCode/RashpberryPi $ ls -al
+total 36
+drwxr-xr-x 6 pi pi 4096 Jun 14 13:42 .
+drwxr-xr-x 3 pi pi 4096 Jun 14 03:43 ..
+drwxr-xr-x 8 pi pi 4096 Jun 14 13:52 .git
+-rw-r--r-- 1 pi pi 1203 Jun 14 03:43 .gitignore
+drwxr-xr-x 2 pi pi 4096 Jun 14 03:43 .vscode
+drwxr-xr-x 2 pi pi 4096 Jun 14 08:00 FolderStudy
+drwxr-xr-x 2 pi pi 4096 Jun 14 03:43 Scripts
+-rw-r--r-- 1 pi pi   99 Jun 14 03:43 pyvenv.cfg
+-rw-r--r-- 1 pi pi 1680 Jun 14 13:50 record.txt
+pi@raspberrypi:~/PiCode/RashpberryPi $ $ ssh-keygen -t rsa -C "pu.xin@outlook.com"
+bash: $: command not found
+pi@raspberrypi:~/PiCode/RashpberryPi $ ssh-keygen -t rsa -C "pu.xin@outlook.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/pi/.ssh/id_rsa):
+/home/pi/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/pi/.ssh/id_rsa.
+Your public key has been saved in /home/pi/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:1wY1AdCP85mMtmMZrl0npSI/beKwekEYExT4XfrdHVs pu.xin@outlook.com
+The key's randomart image is:
++---[RSA 2048]----+
+|     o+o.o..+.   |
+|    . o   o. .   |
+|     . = o.o     |
+|      o + oo.  .E|
+|       .S..*o+..+|
+|        ..=.*o...|
+|        o+.=+ .  |
+|        .*Oooo   |
+|      .oo++=     |
++----[SHA256]-----+
+pi@raspberrypi:~/PiCode/RashpberryPi $ cat /home/pi/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDaWrP2TPY6WFEpm3BwUu1HVaz2LJdDvwaB2OJYVNXUCacdDwlciXHKo7AFkNL+UKdAoqfazJ9s5ECxVZMXh0JoyRqp1bs4V1YsvQGslWUkZChl9TPlNd9kn9sDXeSi5QDvZSV+ysYJf+B0Z5SmgF9HoC/wIvFutRzT112FKaI+Brpg+cpORodpRGG+h1j/cCj2E2o2Ul2vybISSIm279z8oV9Bv7GaH3/AGt09dExYWw79kV+LkQ8jIlHm25LNivPENAu1DUnTltQ1KegNuxHPwaJNjqbN0fPpVCAtErR/igN+JGln8UDMy+XCm4KiyuPJkGtdVjlQBZMl22w1Un8B pu.xin@outlook.com
+pi@raspberrypi:~/PiCode/RashpberryPi $ ^C
+pi@raspberrypi:~/PiCode/RashpberryPi $ sh -T git@github.com
+sh: 0: Illegal option -T
+pi@raspberrypi:~/PiCode/RashpberryPi $ ssh -T git@github.com
+Enter passphrase for key '/home/pi/.ssh/id_rsa':abc1234
+Hi xin-pu! You've successfully authenticated, but GitHub does not provide shell access.
+pi@raspberrypi:~/PiCode/RashpberryPi $ ^C
+pi@raspberrypi:~/PiCode/RashpberryPi $ ^C
+pi@raspberrypi:~/PiCode/RashpberryPi $
+
 commit by xin-pu and password @ github
